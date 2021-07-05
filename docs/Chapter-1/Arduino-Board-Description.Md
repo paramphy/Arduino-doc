@@ -1,0 +1,78 @@
+# Arduino-Board-Description
+
+In this chapter, we will learn about the different components on the Arduino board. We will study the Arduino UNO board because it is the most popular board in the Arduino board family. In addition, it is the best board to get started with electronics and coding. Some boards look a bit different from the one given below, but most Arduinos have majority of these components in common.
+
+![Arduino Board with point](img\boardwithpoint.png)
+
+1. **Power USB**
+
+   Arduino board can be powered by using the USB cable from your  computer. All you need to do is connect the USB cable to the USB  connection (1).
+
+2. **Power (Barrel Jack)**
+
+   Arduino boards can be powered directly from the AC mains power supply by connecting it to the Barrel Jack (2).
+
+3. **Voltage Regulator**
+
+   The function of the voltage regulator is to control the voltage given to the Arduino board and stabilize the DC voltages used by the  processor and other elements.
+
+4. **Crystal Oscillator**
+
+   The crystal oscillator helps Arduino in dealing with time issues. How does Arduino calculate time? The answer is, by using the crystal  oscillator. The number printed on top of the Arduino crystal is  16.000H9H. It tells us that the frequency is 16,000,000 Hertz or 16 MHz.
+
+5. **Arduino Reset**
+
+   You can reset your Arduino board, i.e., start your program from the  beginning. You can reset the UNO board in two ways. First, by using the  reset button (17) on the board. Second, you can connect an external  reset button to the Arduino pin labelled RESET (5).
+
+6. **3.3V **
+
+   Supply 3.3 output volt.
+
+7.  **5V** 
+
+    Supply 5 output volt.
+
+    Most of the components used with Arduino board works fine with 3.3 volt and 5 volt.
+
+8. **GND (Ground)** 
+
+    There are several GND pins on the Arduino, any of which can be used to ground your circuit.
+
+9. **Vin** 
+
+   This pin also can be used to power the Arduino board from an external power source, like AC mains power supply.
+
+10. **Analog pins**
+
+    The Arduino UNO board has six analog input pins A0 through A5. These  pins can read the signal from an analog sensor like the humidity sensor  or temperature sensor and convert it into a digital value that can be  read by the microprocessor.
+
+11. **Main microcontroller**
+
+    Each Arduino board has its own microcontroller (11). You can assume  it as the brain of your board. The main IC (integrated circuit) on the  Arduino is slightly different from board to board. The microcontrollers  are usually of the ATMEL Company. You must know what IC your board has  before loading up a new program from the Arduino IDE. This information  is available on the top of the IC. For more details about the IC  construction and functions, you can refer to the data sheet.
+
+12. **ICSP pin**
+
+    Mostly, ICSP (12) is an AVR, a tiny programming header for the  Arduino consisting of MOSI, MISO, SCK, RESET, VCC, and GND. It is often  referred to as an SPI (Serial Peripheral Interface), which could be  considered as an "expansion" of the output. Actually, you are slaving  the output device to the master of the SPI bus.
+
+13. **Power LED indicator**
+
+    This LED should light up when you plug your Arduino into a power  source to indicate that your board is powered up correctly. If this  light does not turn on, then there is something wrong with the  connection.
+
+14. **TX and RX LEDs**
+
+    On your board, you will find two labels: TX (transmit) and RX  (receive). They appear in two places on the Arduino UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible for serial  communication. Second, the TX and RX led (13). The TX led flashes with  different speed while sending the serial data. The speed of flashing  depends on the baud rate used by the board. RX flashes during the  receiving process.
+
+15. **Digital I/O**
+
+    The Arduino UNO board has 14 digital I/O pins (15) (of which 6  provide PWM (Pulse Width Modulation) output. These pins can be  configured to work as input digital pins to read logic values (0 or 1)  or as digital output pins to drive different modules like LEDs, relays,  etc. The pins labeled “~” can be used to generate PWM.
+
+16. **AREF**
+
+    AREF stands for Analog Reference. It is sometimes, used to set an  external reference voltage (between 0 and 5 Volts) as the upper limit  for the analog input pins.
+
+
+
+
+
+
+
