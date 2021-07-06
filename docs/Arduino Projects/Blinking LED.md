@@ -12,7 +12,7 @@ You will need the following components −
 # Procedure
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
-![ledblink](img\ledblink.png)
+![ledblink](https://i.imgur.com/cbuTHNd.png)
 **Note −** To find out the polarity of an LED, look at it closely. The shorter of the two legs, towards the flat edge of the bulb indicates the negative terminal.
 ![led](https://i.imgur.com/1CQ4e6c.png)
 
