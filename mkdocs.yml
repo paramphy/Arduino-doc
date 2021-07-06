@@ -1,6 +1,12 @@
 site_name: Arduino Docs
 site_url: https://example.com/
 
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+
 #plugins:
 #    - with-pdf
 nav:
