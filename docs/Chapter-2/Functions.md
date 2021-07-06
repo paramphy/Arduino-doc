@@ -15,7 +15,7 @@ Standardizing code fragments into functions has several advantages −
 There are two required functions in an Arduino sketch or a program i.e. setup () and loop(). Other functions must be created outside the brackets of these two functions.
 
 The most common syntax to define a function is
-![function](img/function.png)
+![function](https://i.imgur.com/Qb3qrj3.png)
 
 # Function Declaration
 
