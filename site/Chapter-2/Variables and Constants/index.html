@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://example.com/Chapter-2/Variables%20and%20Constants/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Scope of a Variable - Arduino Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Arduino Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Arduino Tutorial</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chapter 1 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Chapter-1/Arduino-Overview/" class="dropdown-item">Arduino-Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-1/Arduino-Board-Description/" class="dropdown-item">Arduino-Board-Description</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-1/Installation/" class="dropdown-item">Installation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chapter 2 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Program%20Structure/" class="dropdown-item">Program Structure</a>
+</li>
+                                    
+<li>
+    <a href="../Data%20Types/" class="dropdown-item">Data Types</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Scope of a Variable</a>
+</li>
+                                    
+<li>
+    <a href="../Operators/" class="dropdown-item">Operators</a>
+</li>
+                                    
+<li>
+    <a href="../Control%20Statements/" class="dropdown-item">Control Statements</a>
+</li>
+                                    
+<li>
+    <a href="../Loops/" class="dropdown-item">Loops</a>
+</li>
+                                    
+<li>
+    <a href="../Functions/" class="dropdown-item">Functions</a>
+</li>
+                                    
+<li>
+    <a href="../Time/" class="dropdown-item">Time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arduino Projects <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Arduino%20Projects/Blinking%20LED/" class="dropdown-item">Blinking LED</a>
+</li>
+                                    
+<li>
+    <a href="../../Arduino%20Projects/Fading%20LED/" class="dropdown-item">Fading LED</a>
+</li>
+                                    
+<li>
+    <a href="../../Arduino%20Projects/Reading%20Analog%20Voltage/" class="dropdown-item">Reading Analog Voltage</a>
+</li>
+                                    
+<li>
+    <a href="../../Arduino%20Projects/Temperature%20Sensor/" class="dropdown-item">Temperature Sensor</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Data%20Types/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Operators/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#scope-of-a-variable" class="nav-link">Scope of a Variable</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#local-variables" class="nav-link">Local Variables</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#global-variables" class="nav-link">Global Variables</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="scope-of-a-variable">Scope of a Variable<a class="headerlink" href="#scope-of-a-variable" title="Permanent link">&para;</a></h1>
+<p>Variables in C programming language, which Arduino uses, have a property called scope. A scope is a region of the program and there are three places where variables can be declared. They are</p>
+<ul>
+<li>Inside a function or a block, which is called local variables.</li>
+<li>In the definition of function parameters, which is called formal parameters.</li>
+<li>Outside of all functions, which is called global variables.</li>
+</ul>
+<h2 id="local-variables">Local Variables<a class="headerlink" href="#local-variables" title="Permanent link">&para;</a></h2>
+<p>Variables that are declared inside a function or block are local variables. They can be used only by the statements that are inside that function or block of code. Local variables are not known to function outside their own. Following is the example using local variables −</p>
+<pre><code class="language-c++">void setup () {
+
+}
+
+void loop () {
+   int x , y ;
+   int z ; Local variable declaration
+   x = 0;
+   y = 0; actual initialization
+   z = 10;
+}
+</code></pre>
+<h2 id="global-variables">Global Variables<a class="headerlink" href="#global-variables" title="Permanent link">&para;</a></h2>
+<p>Global variables are defined outside of all the functions, usually at the top of the program. The global variables will hold their value throughout the life-time of your program.</p>
+<p>A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration.</p>
+<p>The following example uses global and local variables −</p>
+<pre><code class="language-c++">Int T , S ;
+float c = 0 ; Global variable declaration
+
+void setup () {
+
+}
+
+void loop () {
+   int x , y ;
+   int z ; Local variable declaration
+   x = 0;
+   y = 0; actual initialization
+   z = 10;
+}
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

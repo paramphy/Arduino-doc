@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://example.com/Arduino%20Projects/Fading%20LED/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Fading LED - Arduino Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Arduino Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Arduino Tutorial</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chapter 1 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Chapter-1/Arduino-Overview/" class="dropdown-item">Arduino-Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-1/Arduino-Board-Description/" class="dropdown-item">Arduino-Board-Description</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-1/Installation/" class="dropdown-item">Installation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chapter 2 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Chapter-2/Program%20Structure/" class="dropdown-item">Program Structure</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Data%20Types/" class="dropdown-item">Data Types</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Variables%20and%20Constants/" class="dropdown-item">Scope of a Variable</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Operators/" class="dropdown-item">Operators</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Control%20Statements/" class="dropdown-item">Control Statements</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Loops/" class="dropdown-item">Loops</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Functions/" class="dropdown-item">Functions</a>
+</li>
+                                    
+<li>
+    <a href="../../Chapter-2/Time/" class="dropdown-item">Time</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arduino Projects <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Blinking%20LED/" class="dropdown-item">Blinking LED</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Fading LED</a>
+</li>
+                                    
+<li>
+    <a href="../Reading%20Analog%20Voltage/" class="dropdown-item">Reading Analog Voltage</a>
+</li>
+                                    
+<li>
+    <a href="../Temperature%20Sensor/" class="dropdown-item">Temperature Sensor</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Blinking%20LED/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Reading%20Analog%20Voltage/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#components-required" class="nav-link">Components Required</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#procedure" class="nav-link">Procedure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#sketch" class="nav-link">Sketch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#arduino-code" class="nav-link">Arduino Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#code-to-note" class="nav-link">Code to Note</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#result" class="nav-link">Result</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>This example demonstrates the use of the analogWrite() function in fading an LED off. AnalogWrite uses pulse width modulation (PWM), turning a digital pin on and off very quickly with different ratios between on and off, to create a fading effect.</p>
+<h1 id="components-required">Components Required<a class="headerlink" href="#components-required" title="Permanent link">&para;</a></h1>
+<p>You will need the following components −</p>
+<ul>
+<li>1 × Breadboard</li>
+<li>1 × Arduino Uno R3</li>
+<li>1 × LED</li>
+<li>1 × 330Ω Resistor</li>
+<li>2 × Jumper</li>
+</ul>
+<h1 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">&para;</a></h1>
+<p>Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.</p>
+<p><img alt="ledfade" src="../img/ledfade.png" /></p>
+<p><strong>Note −</strong> To find out the polarity of an LED, look at it closely. The shorter of the two legs, towards the flat edge of the bulb indicates the negative terminal.</p>
+<p><img alt="led" src="../img/led.png" /></p>
+<h1 id="sketch">Sketch<a class="headerlink" href="#sketch" title="Permanent link">&para;</a></h1>
+<p>Open the Arduino IDE software on your computer. Coding in the Arduino language will control your circuit. Open the new sketch File by clicking New.</p>
+<h1 id="arduino-code">Arduino Code<a class="headerlink" href="#arduino-code" title="Permanent link">&para;</a></h1>
+<pre><code class="language-c++">/*
+   Fade
+   This example shows how to fade an LED on pin 9 using the analogWrite() function.
+
+   The analogWrite() function uses PWM, so if you want to change the pin you're using, be
+   sure to use another PWM capable pin. On most Arduino, the PWM pins are identified with
+   a &quot;~&quot; sign, like ~3, ~5, ~6, ~9, ~10 and ~11.
+*/
+
+int led = 9; // the PWM pin the LED is attached to
+int brightness = 0; // how bright the LED is
+int fadeAmount = 5; // how many points to fade the LED by
+// the setup routine runs once when you press reset:
+
+void setup() {
+   // declare pin 9 to be an output:
+   pinMode(led, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+
+void loop() {
+   // set the brightness of pin 9:
+   analogWrite(led, brightness);
+   // change the brightness for next time through the loop:
+   brightness = brightness + fadeAmount;
+   // reverse the direction of the fading at the ends of the fade:
+   if (brightness == 0 || brightness == 255) {
+      fadeAmount = -fadeAmount ;
+   }
+   // wait for 30 milliseconds to see the dimming effect
+   delay(300);
+}
+</code></pre>
+<h1 id="code-to-note">Code to Note<a class="headerlink" href="#code-to-note" title="Permanent link">&para;</a></h1>
+<p>After declaring pin 9 as your LED pin, there is nothing to do in the <strong>setup()</strong> function of your code. The <strong>analogWrite()</strong> function that you will be using in the main loop of your code requires two arguments: One, telling the function which pin to write to and the other indicating what PWM value to write.</p>
+<p>In order to fade the LED off and on, gradually increase the PWM values from 0 (all the way off) to 255 (all the way on), and then back to 0, to complete the cycle. In the sketch given above, the PWM value is set using a variable called brightness. Each time through the loop, it increases by the value of the variable fadeAmount.</p>
+<p>If brightness is at either extreme of its value (either 0 or 255), then fadeAmount is changed to its negative. In other words, if fadeAmount is 5, then it is set to -5. If it is -5, then it is set to 5. The next time through the loop, this change causes brightness to change direction as well.</p>
+<p>analogWrite() can change the PWM value very fast, so the delay at the end of the sketch controls the speed of the fade. Try changing the value of the delay and see how it changes the fading effect.</p>
+<h1 id="result">Result<a class="headerlink" href="#result" title="Permanent link">&para;</a></h1>
+<p>You should see your LED brightness change gradually.
+<img alt="led" src="../img/ledfadegif.gif" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
