@@ -6,9 +6,9 @@ site_url: https://example.com/
 nav:
     - 'index.md'
     - Chapter 1:
-      - 'Chapter-1\Arduino-Overview.md'
-      - 'Chapter-1\Arduino-Board-Description.md'
-      - 'Chapter-1\Installation.md'
+      - Arduino-Overview: 'Chapter-1\Arduino-Overview.md'
+      - Arduino-Board-Description: 'Chapter-1\Arduino-Board-Description.md'
+      - Installation: 'Chapter-1\Installation.md'
     - Chapter 2:
       - 'Chapter-2\Program Structure.md'
       - 'Chapter-2\Data Types.md'
