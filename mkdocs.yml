@@ -5,6 +5,7 @@ site_url: https://example.com/
 #    - with-pdf
 nav:
     - 'index.md'
+    - 'about.md'
     - Chapter 1:
       - 'Chapter-1\Arduino-Overview.md'
       - 'Chapter-1\Arduino-Board-Description.md'
