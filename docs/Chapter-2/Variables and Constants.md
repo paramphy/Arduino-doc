@@ -1,0 +1,48 @@
+# Scope of a Variable
+
+Variables in C programming language, which Arduino uses, have a property called scope. A scope is a region of the program and there are three places where variables can be declared. They are
+
+- Inside a function or a block, which is called local variables.
+- In the definition of function parameters, which is called formal parameters.
+- Outside of all functions, which is called global variables.
+
+## Local Variables
+
+Variables that are declared inside a function or block are local variables. They can be used only by the statements that are inside that function or block of code. Local variables are not known to function outside their own. Following is the example using local variables −
+
+```c++
+void setup () {
+
+}
+
+void loop () {
+   int x , y ;
+   int z ; Local variable declaration
+   x = 0;
+   y = 0; actual initialization
+   z = 10;
+}
+```
+
+## Global Variables
+Global variables are defined outside of all the functions, usually at the top of the program. The global variables will hold their value throughout the life-time of your program.
+
+A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration.
+
+The following example uses global and local variables −
+```c++
+Int T , S ;
+float c = 0 ; Global variable declaration
+
+void setup () {
+
+}
+
+void loop () {
+   int x , y ;
+   int z ; Local variable declaration
+   x = 0;
+   y = 0; actual initialization
+   z = 10;
+}
+```
