@@ -16,8 +16,8 @@ The key features are −
 
 # Arduino Board and IDE(Integrated Development Environment)
 
-![Arduino Uno R3 board](img\a000066_front.03.jpg)
-![Arduino IDE initial page](img\arduino-21586-3.jpg)
+![Arduino Uno R3 board](https://i.imgur.com/6uYuZAM.jpg)
+![Arduino IDE initial page](https://i.imgur.com/KxsuUnY.jpg)
 
 
 # Board Types

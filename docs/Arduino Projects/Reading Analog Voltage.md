@@ -13,7 +13,7 @@ You will need the following components −
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 
-![readanalogvoltage](img\readanalogvoltage.png)
+![readanalogvoltage](https://i.imgur.com/b7ORsqM.png)
 
 
 # Potentiometer
@@ -22,7 +22,7 @@ A potentiometer (or pot) is a simple electro-mechanical transducer. It converts 
 
 The pot as we know it was originally known as a rheostat (essentially a variable wirewound resistor). The variety of available pots is now quite astonishing, and it can be very difficult for the beginner (in particular) to work out which type is suitable for a given task. A few different pot types, which can all be used for the same task makes the job harder.
 
-![pot](img\Potentiometerterminals.png)
+![pot](https://i.imgur.com/9f04cVB.png)
 
 The image on the right shows the standard schematic symbol of a pot. The image on the left is the potentiometer.
 
@@ -88,7 +88,7 @@ Serial.println(voltage)
 
 Now, open Serial Monitor in the Arduino IDE by clicking the icon on the right side of the top green bar or pressing Ctrl+Shift+M.
 
-![sketch](img\sketch.png)
+![sketch](https://i.imgur.com/xdEeZmS.png)
 
 # Result
 

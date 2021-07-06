@@ -5,7 +5,7 @@ After learning about the main parts of the Arduino UNO board, we are ready to le
 
 In this section, we will learn in easy steps, how to set up the Arduino IDE on our computer and prepare the board to receive the program via USB cable.
 
-![Connecting cable](img\cable.jpg)
+![Connecting cable](https://i.imgur.com/cR4oF9B.jpg)
 
 - **Step 1**
 
@@ -33,7 +33,7 @@ Once the software starts, you have two options −
    -  Open an existing project example.
 
 To create a new project, select File → **New.**
-![new](img\new.png)
+![new](https://i.imgur.com/5eF8pF6.png)
 
 To open an existing project example, select File → Example → Basics → Blink.
 Open Project
@@ -42,18 +42,18 @@ Here, we are selecting just one of the examples with the name Blink. It turns th
 
 - **Step 6 − Select your Arduino board.**
 
-![board](img\board.png)
+![board](https://i.imgur.com/knBebQy.png)
 
 Here, we have selected Arduino Uno board according to our tutorial, but you must select the name matching the board that you are using.
 
 - **Step 7 − Select your serial port.**
 
-![COM3](img\COM.png)
+![COM3](https://i.imgur.com/KCYl8AF.png)
 
 - **Step 8 − Upload the program to your board.**
 
 Before explaining how we can upload our program to the board, we must demonstrate the function of each symbol appearing in the Arduino IDE toolbar.
-![buttons](img\buttons.png)
+![buttons](https://i.imgur.com/vX83OZ3.png)
 
 - **A** − Used to check if there is any compilation error.
 

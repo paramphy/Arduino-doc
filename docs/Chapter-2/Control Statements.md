@@ -2,7 +2,7 @@ Decision making structures require that the programmer specify one or more condi
 
 Following is the general form of a typical decision making structure found in most of the programming languages −
 
-![ifelse](img\ifelse.png)
+![ifelse](https://i.imgur.com/3mGzHE0.png)
 
 Control Statements are elements in Source Code that control the flow of program execution. They are the following
 

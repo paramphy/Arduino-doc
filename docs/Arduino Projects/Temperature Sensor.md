@@ -22,7 +22,7 @@ You will need the following components −
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 
-![temp](img\temp.png)
+![temp](https://i.imgur.com/Z91m8Ep.png)
 
 # Arduino Code
 

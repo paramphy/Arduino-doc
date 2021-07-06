@@ -14,7 +14,7 @@ You will need the following components −
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 ![ledblink](img\ledblink.png)
 **Note −** To find out the polarity of an LED, look at it closely. The shorter of the two legs, towards the flat edge of the bulb indicates the negative terminal.
-![led](img\led.png)
+![led](https://i.imgur.com/1CQ4e6c.png)
 
 # Sketch
 
@@ -52,4 +52,4 @@ void loop() {
 
 You should see your LED turn on and off. If the required output is not seen, make sure you have assembled the circuit correctly, and verified and uploaded the code to your board.
 
-![gif](img\ledblinkgif.gif)
+![gif](https://i.imgur.com/s7oYW8w.gif)

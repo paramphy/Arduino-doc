@@ -11,7 +11,7 @@ Let us start with the Structure. Software structure consist of two main function
 - Setup( ) function
 - Loop( ) function
 
-![Structure](img\structure.png)
+![Structure](https://i.imgur.com/5X0IlAi.png)
 
 
 

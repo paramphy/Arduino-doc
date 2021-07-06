@@ -2,7 +2,9 @@
 Programming languages provide various control structures that allow for more complicated execution paths.
 
 A loop statement allows us to execute a statement or group of statements multiple times and following is the general form of a loop statement in most of the programming languages −
-![diagram](img/loop.png)
+
+![diagram](https://i.imgur.com/96ahXeg.png)
+
 C programming language provides the following types of loops to handle looping requirements.
 # while loop
 while loops will loop continuously, and infinitely, until the expression inside the parenthesis, () becomes false. Something must change the tested variable, or the while loop will never exit.

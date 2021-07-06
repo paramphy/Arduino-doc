@@ -13,11 +13,11 @@ You will need the following components −
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 
-![ledfade](img\ledfade.png)
+![ledfade](https://i.imgur.com/ODYpl1y.png)
 
 **Note −** To find out the polarity of an LED, look at it closely. The shorter of the two legs, towards the flat edge of the bulb indicates the negative terminal.
 
-![led](img\led.png)
+![led](https://i.imgur.com/1CQ4e6c.png)
 
 # Sketch
 
@@ -74,4 +74,4 @@ analogWrite() can change the PWM value very fast, so the delay at the end of the
 # Result
 
 You should see your LED brightness change gradually.
-![led](img\ledfadegif.gif)
+![led](https://i.imgur.com/MfBKcxC.gif)
