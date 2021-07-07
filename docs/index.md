@@ -17,4 +17,5 @@ Before you start proceeding with this tutorial, we assume that you are already f
 An Arduino Uno board and computer to code is expected from the students. But if you don't have an arduino board yet you can try [TinkarCAD Circuits](https://www.tinkercad.com/dashboard) to simulate the arduino circuit. We will be using this simulator for this course. Link of the Tinkar simulation file will be shared with every project. I strongly recommend to to get a tinkarcad account, its free. You can make one [here](https://www.tinkercad.com/).
 
 # About this course
+
 This course is a simplified and shorter syllabus oriented version of [this tutorial](https://www.tutorialspoint.com/arduino/index.htm). I have also made introduced the online simulation of arduino circuits and also included some arduino projects. The number of projects may increase if needed.
