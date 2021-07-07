@@ -9,25 +9,25 @@ markdown_extensions:
 
 #plugins:
 #    - with-pdf
-nav:
-    - 'index.md'
-    - Chapter 1:
-      - Arduino-Overview: 'Chapter-1\Arduino-Overview.md'
-      - Arduino-Board-Description: 'Chapter-1\Arduino-Board-Description.md'
-      - Installation: 'Chapter-1\Installation.md'
-    - Chapter 2:
-      - 'Chapter-2\Program Structure.md'
-      - 'Chapter-2\Data Types.md'
-      - 'Chapter-2\Variables and Constants.md'
-      - 'Chapter-2\Operators.md'
-      - 'Chapter-2\Control Statements.md'
-      - 'Chapter-2\Loops.md'
-      - 'Chapter-2\Functions.md'
-      - 'Chapter-2\Time.md'
-    - Arduino Projects:
-      - 'Arduino Projects\Blinking LED.md'
-      - 'Arduino Projects\Fading LED.md'
-      - 'Arduino Projects\Reading Analog Voltage.md'
-      - 'Arduino Projects\Temperature Sensor.md'
+#nav:
+#    - 'index.md'
+#    - Chapter 1:
+#      - Arduino-Overview: 'Chapter-1\Arduino-Overview.md'
+#      - Arduino-Board-Description: 'Chapter-1\Arduino-Board-Description.md'
+#      - Installation: 'Chapter-1\Installation.md'
+#    - Chapter 2:
+#      - 'Chapter-2\Program Structure.md'
+#      - 'Chapter-2\Data Types.md'
+#      - 'Chapter-2\Variables and Constants.md'
+#      - 'Chapter-2\Operators.md'
+#      - 'Chapter-2\Control Statements.md'
+#      - 'Chapter-2\Loops.md'
+#      - 'Chapter-2\Functions.md'
+#      - 'Chapter-2\Time.md'
+#    - Arduino Projects:
+#      - 'Arduino Projects\Blinking LED.md'
+#      - 'Arduino Projects\Fading LED.md'
+#      - 'Arduino Projects\Reading Analog Voltage.md'
+#      - 'Arduino Projects\Temperature Sensor.md'
 
 repo_url: https://github.com/paramphy/Arduino-doc/main/
