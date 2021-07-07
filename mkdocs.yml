@@ -46,4 +46,4 @@ markdown_extensions:
         user: paramphy
         repo: Arduino-doc
 
-copyright: Copyright &copy; 2014 <a href="https://github.com/paramphy">Paramesh Chandra</a>.
+copyright: Maintained by the <a href="https://github.com/paramphy">Paramesh Chandra</a>.
