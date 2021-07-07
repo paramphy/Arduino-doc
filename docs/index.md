@@ -13,3 +13,5 @@ This tutorial is intended to make you comfortable in getting started with Arduin
 # Prerequisites
 
 Before you start proceeding with this tutorial, we assume that you are already familiar with the basics of C and C++. If you are not well aware of these concepts, then we will suggest you go through our short tutorials on C and C++. A basic understanding of microcontrollers and electronics is also expected.
+
+An Arduino Uno board and computer to code is expected from the students. But if you don't have an arduino board yet you can try [TinkarCAD Circuits](https://www.tinkercad.com/dashboard) to simulate the arduino circuit. We will be using this simulator for this course. Link of the Tinkar simulation file will be shared with every project. I strongly recommend to to get a tinkarcad account, its free. You can make one [here](https://www.tinkercad.com/)
