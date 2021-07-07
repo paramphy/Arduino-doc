@@ -42,8 +42,8 @@ markdown_extensions:
     - admonition
     - attr_list
     - def_list
-    - mdx_gh_links:
-        user: paramphy
-        repo: Arduino-doc
+    #- mdx_gh_links:
+    #    user: paramphy
+    #    repo: Arduino-doc
 
 copyright: Maintained by the <a href="https://github.com/paramphy">Paramesh Chandra</a>.
