@@ -1,5 +1,7 @@
 site_name: Arduino Docs
 site_url: https://example.com/
+site_description: Arduino Doc.
+site_author: Paramesh Chandra.
 
 markdown_extensions:
     - smarty
@@ -9,6 +11,7 @@ markdown_extensions:
 
 #plugins:
 #    - with-pdf
+
 #nav:
 #    - 'index.md'
 #    - Chapter 1:
@@ -30,4 +33,17 @@ markdown_extensions:
 #      - 'Arduino Projects\Reading Analog Voltage.md'
 #      - 'Arduino Projects\Temperature Sensor.md'
 
-repo_url: https://github.com/paramphy/Arduino-doc/main/
+repo_url: https://github.com/paramphy/Arduino-doc/
+edit_uri: ""
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - attr_list
+    - def_list
+    - mdx_gh_links:
+        user: paramphy
+        repo: Arduino-doc
+
+copyright: Copyright &copy; 2014 <a href="https://github.com/paramphy">Paramesh Chandra</a>.
