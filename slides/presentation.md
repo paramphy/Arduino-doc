@@ -10,7 +10,6 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 # **Lectures on Arduino**
 ## *SEC B-1(Project Type)*
 
-
 ---
 
 ![bg left:20% 80%](https://i.imgur.com/OrgRQio.png)
@@ -21,6 +20,14 @@ Arduino is a prototype platform (open-source) based on an easy-to-use hardware a
 
 [Official Site of Arduino](https://www.arduino.cc/)
 
+---
+# **Arduino Board**
+
+![arduinounoboard right:10% 10%](https://i.imgur.com/6uYuZAM.jpg)
+
+---
+# **IDE**
+![](https://i.imgur.com/5X0IlAi.png)
 ---
 
 # **Important Links**
