@@ -38,13 +38,10 @@ markdown_extensions:
 
 markdown_extensions:
     - toc:
-        permalink: 
+        permalink: True
     - admonition
     - attr_list
     - def_list
-    #- mdx_gh_links:
-    #    user: paramphy
-    #    repo: Arduino-doc
     - mdx_math
 
 copyright: Maintained by the <a href="https://github.com/paramphy">Paramesh Chandra</a>.
