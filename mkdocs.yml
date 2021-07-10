@@ -9,8 +9,9 @@ markdown_extensions:
         permalink: True
     - sane_lists
 
-#plugins:
-#    - with-pdf
+plugins:
+    - search
+    #- mkpdfs
 
 #nav:
 #    - 'index.md'
