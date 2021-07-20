@@ -1,4 +1,5 @@
  # Questions and Answers
+ ggghggg
  
  - **What do you mean by open-source hardware? Give an example.**
 
@@ -6,7 +7,7 @@
  ---
 
  - **What are the advantages in using Arduino over other microcontroller platforms?**
- 
+
  ---
 
  - **Which software is used in Arduino sketch? What is the file extension of the sketch?**
