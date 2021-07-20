@@ -1,6 +1,5 @@
- ## Questions and Answers
+ # Questions and Answers
  
-
  - **What do you mean by open-source hardware? Give an example.**
 cvvcvccvcvcvcvcvccvjsvnmncxmcvfd gddh fghf gh fgh fhfnhfhfg h
  ---
