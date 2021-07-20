@@ -1,19 +1,32 @@
  ## Questions and Answers
+ 
+ 
  - **What do you mean by open-source hardware? Give an example.**
+    cvvcvccvcvcvcvcvccvjsvnmncxmcvfd gddh fghf gh fgh fhfnhfhfg h
+ ---
 
  - **What are the advantages in using Arduino over other microcontroller platforms?**
+ ---
 
  - **Which software is used in Arduino sketch? What is the file extension of the sketch?**
+ ---
 
  - **Which microcontroller is used in Arduino uno? What is the clock speed of this microcontroller?**
+ ---
 
  - **How many digital input/output pins and analog input pins are there in Arduino uno?**
+ ---
  - **What reference voltages can be obtained from the Arduino uno board? What is the use of AREF pin?**
+ ---
 
 - **Explain, with an example, the term ‘variables’ in sketch.**
+---
 - **Explain, with an example, the term ‘functions’ in sketch.**
+---
 - **What the setup() and loop() functions in sketch are used for?**
+---
 - **What does the syntax digitalWrite(pin, HIGH) describe?**
+---
 - **What is the function analogWrite() used for?**
 - **What is the function Serial.println() used for? Give an example.**
 - **What sensor is used for measuring the temperature with Arduino? How does the output of the sensor vary with varying temperature?**
@@ -39,3 +52,4 @@
 - **What is an Arduino code called? What are the two major sections of an Arduino code?**
 - **What is the resolution of the analog voltage measurement of an Arduino Uno microcontroller and why?**
 - **Which function would you use to time stamp a data output by arduino with relative time? How would you use it?**
+---
