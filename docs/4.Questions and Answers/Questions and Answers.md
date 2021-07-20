@@ -73,7 +73,7 @@
     2. Arduino Mega
     3. Arduino Nano
  ---
- 
+
  - **What are the different components of the CPU of an Arduino Uno microcontroller? Write their functions briefly**
 
     **Different components of the CPU of an Arduino Uno microcontroller are**
@@ -86,7 +86,13 @@
 
  ---
  - **Where is the location of the USB interface chip? What is its function?**
+ 
+    ![usbinterfacechip](https://i.imgur.com/Ud5eBU5.jpg)
+
+    
+    The Atmega8u2 is a programable USB to UART (Universal Asynchronous Receiver-Transmitter) which converts signals in the USB level to a level compatible with the Arduino Uno Board. 
  ---
+ 
  - **Can the voltage input to the 6 analog pins in an Arduino Uno microcontroller board go directly to the CPU for processing? What is the maximum voltage that can be accepted by the analog pins?**
  ---
  - **Why cannot the 6 analog pins in an Arduino Uno microcontroller be used to measure current? Which pin among the digital pins of an Arduino Uno microcontroller is connected to the built-in LED?**
@@ -107,5 +113,29 @@
   
  ---
  - **Which function would you use to time stamp a data output by arduino with relative time? How would you use it?**
+
+    The inbuilt *millis()* function can be used to time stamp a data output by arduino with relative time.
+
+    Returns the number of milliseconds passed since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
+
+    
+
+    This example code prints on the serial port the number of milliseconds passed since the Arduino board started running the code itself.
+
+```c++
+unsigned long myTime;
+
+void setup() {
+  Serial.begin(9600);
+}
+void loop() {
+  Serial.print("Time: ");
+  myTime = millis();
+
+  Serial.println(myTime); // prints time since program started
+  delay(1000);          // wait a second so as not to send massive amounts of data
+}
+```
+
  ---
 
