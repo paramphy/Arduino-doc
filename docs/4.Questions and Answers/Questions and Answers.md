@@ -83,23 +83,23 @@
  - **Write down the pin diagram of the sensor LM 35.**
 ---
  - **Write a program to turn on built in LED of the arduino Uno for 1 sec and off for 1 sec.**
+   program to turn on built in LED of the arduino Uno for 1 sec and off for 1 sec.
+```c++
+/*Blink
+Turn on an LED on for five second then off for five seconds, repeatedly.
+*/
+ void setup(){
+   pinMode(13,OUTPUT);//initialize digital pin 13 as an output
+}
 
-   ```c++
-   /*Blink
-   Turn on an LED on for five second then off for five seconds, repeatedly.
-   */
-    void setup(){
-      pinMode(13,OUTPUT);//initialize digital pin 13 as an output
-   }
-   
-   //the loop function runs the code continuously
-   void loop(){
-      digitalWrite(13,HIGH);//turns on the LED
-      delay(1000);//wait for five seconds
-      digitalWrite(13,LOW);//turns off the LED
-      delay(1000);//wait for five seconds
-   }
-   ```
+//the loop function runs the code continuously
+void loop(){
+   digitalWrite(13,HIGH);//turns on the LED
+   delay(1000);//wait for five seconds
+   digitalWrite(13,LOW);//turns off the LED
+   delay(1000);//wait for five seconds
+}
+```
 ---
  - **Write a program to read a digital input on the digital pin 2 and prints the result to the serial monitor.**
 ---
