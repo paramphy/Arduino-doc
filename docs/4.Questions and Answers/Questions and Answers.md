@@ -2,30 +2,30 @@
 
  - **What do you mean by open-source hardware? Give an example.**
 
-   Open-source hardware (OSH) consists of physical artifacts of technology designed and offered by the open-design movement.The term usually means that information about the hardware is easily discerned so that others can make it.
+    Open-source hardware (OSH) consists of physical artifacts of technology designed and offered by the open-design movement.The term usually means that information about the hardware is easily discerned so that others can make it.
 
-   Example: RepRap(3D printing), Arduino etc.
+    Example: RepRap(3D printing), Arduino etc.
 
  - **What are the advantages in using Arduino over other microcontroller platforms?**
 
 
  - **Which software is used in Arduino sketch? What is the file extension of the sketch?**
 
-   Arduino Integrated Development Environment (IDE) is used to write Arduino sketches.
+    Arduino Integrated Development Environment (IDE) is used to write Arduino sketches.
 
-   The file extension of arduino sketch is *.ino [where * stands for the file name]
+    The file extension of arduino sketch is *.ino [where * stands for the file name]
 
 
  - **Which microcontroller is used in Arduino uno? What is the clock speed of this microcontroller?**
 
-   The microcontroller named 'ATmega328P' is used in Arduino Uno.
+    The microcontroller named 'ATmega328P' is used in Arduino Uno.
 
-   The clock speed of this microcontroller is 16 MHz but it can go upto 20 MHz.
+    The clock speed of this microcontroller is 16 MHz but it can go upto 20 MHz.
 
 
  - **How many digital input/output pins and analog input pins are there in Arduino uno?**
 
-   Arduino Uno has 14 digital input/output pins and 6 analog input pins.
+    Arduino Uno has 14 digital input/output pins and 6 analog input pins.
 
 
  - **What reference voltages can be obtained from the Arduino uno board? What is the use of AREF pin?**
