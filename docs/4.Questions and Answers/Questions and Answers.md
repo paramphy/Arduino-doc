@@ -83,6 +83,7 @@
  - **Write down the pin diagram of the sensor LM 35.**
 ---
  - **Write a program to turn on built in LED of the arduino Uno for 1 sec and off for 1 sec.**
+ 
    program to turn on built in LED of the arduino Uno for 1 sec and off for 1 sec.
 ```c++
 /*Blink
