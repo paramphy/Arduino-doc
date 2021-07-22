@@ -5,6 +5,8 @@
  - **What do you mean by open-source hardware? Give an example.**
 
     Open-source hardware (OSH) consists of physical artifacts of technology designed and offered by the open-design movement.The term usually means that information about the hardware is easily discerned so that others can make it.
+
+    Example: RepRap(3D printing), Arduino etc.
  ---
 
  - **What are the advantages in using Arduino over other microcontroller platforms?**
@@ -12,12 +14,23 @@
  ---
 
  - **Which software is used in Arduino sketch? What is the file extension of the sketch?**
+
+ Arduino Integrated Development Environment (IDE) is used to write Arduino sketches.
+
+ The file extension of arduino sketch is *.ino [where * stands for the file name] 
  ---
 
  - **Which microcontroller is used in Arduino uno? What is the clock speed of this microcontroller?**
+
+ The microcontroller named 'ATmega328P' is used in Arduino Uno.
+
+ The clock speed of this microcontroller is 16 MHz but it can go upto 20 MHz.
  ---
 
  - **How many digital input/output pins and analog input pins are there in Arduino uno?**
+
+ Arduino Uno has 14 digital input/output pins and 6 analog input pins.
+
  ---
  - **What reference voltages can be obtained from the Arduino uno board? What is the use of AREF pin?**
  ---
@@ -25,8 +38,6 @@
  - **Explain, with an example, the term ‘variables’ in sketch.**
  ---
  - **Explain, with an example, the term ‘functions’ in sketch.**
- ---
- - **What the setup() and loop() functions in sketch are used for?**
  ---
  - **What does the syntax digitalWrite(pin, HIGH) describe?**
  ---
@@ -39,12 +50,25 @@
  - **What sensors may be used in the measurement of the period of oscillation of simple pendulum with Arduino? Explain.**
  ---
  - **Write the sketch for blinking LED with delay 5 s.**
+
+ ```c++
+ /*Blink
+ Turn on an LED on for five second then off for five seconds, repeatedly.
+ */
+ void setup(){
+    pinMode(13,OUTPUT);//initialize digital pin 13 as an output
+ }
+
+ //the loop function runs the code continuously
+ void loop(){
+    digitalWrite(13,HIGH);//turns on the LED
+    delay(5000);//wait for five seconds
+    digitalWrite(13,LOW);//turns off the LED
+    delay(5000);//wait for five seconds
+ }
+ ```
  ---
  - **What is Pulse Width Modulation?**
- ---
- - **How many digital and analog pins are there on the UNO board?**
- ---
- - **Explain the setup() and loop() functions.**
  ---
  - **Explain the analogRead() function.**
  ---
@@ -59,6 +83,23 @@
  - **Write down the pin diagram of the sensor LM 35.**
  ---
  - **Write a program to turn on built in LED of the arduino Uno for 1 sec and off for 1 sec.**
+
+ ```c++
+ /*Blink
+ Turn on an LED on for five second then off for five seconds, repeatedly.
+ */
+ void setup(){
+    pinMode(13,OUTPUT);//initialize digital pin 13 as an output
+ }
+
+ //the loop function runs the code continuously
+ void loop(){
+    digitalWrite(13,HIGH);//turns on the LED
+    delay(1000);//wait for five seconds
+    digitalWrite(13,LOW);//turns off the LED
+    delay(1000);//wait for five seconds
+ }
+ ```
  ---
  - **Write a program to read a digital input on the digital pin 2 and prints the result to the serial monitor.**
  ---
