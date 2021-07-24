@@ -12,6 +12,7 @@ markdown_extensions:
 plugins:
     - search
     #- mkpdfs
+    - print-site
 
 #nav:
 #    - 'index.md'
