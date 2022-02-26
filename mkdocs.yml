@@ -11,7 +11,7 @@ markdown_extensions:
 
 plugins:
     - search
-    - with-pdf
+    #- with-pdf
     #- print-site
     #  add_to_navigation: true
     #  print_page_title: 'Print Site'
