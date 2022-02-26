@@ -49,7 +49,7 @@ plugins:
 #      - 'Arduino Projects\Reading Analog Voltage.md'
 #      - 'Arduino Projects\Temperature Sensor.md'
 
-#repo_url: https://github.com/paramphy/Arduino-doc/
+repo_url: https://github.com/paramphy/Arduino-doc/
 #edit_uri: ""
 
 markdown_extensions:
