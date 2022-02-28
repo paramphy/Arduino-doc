@@ -38,7 +38,10 @@ nav:
         - '7 Segment Display': '3.Arduino Projects\7.7 Segment Display.md'
         - 'Ultrasonic Sensor': '3.Arduino Projects\8.Ultrasonic Sensor.md'
         - 'LCD Display': '3.Arduino Projects\9.LCD Display.md'
-#repo_url: https://github.com/paramphy/Arduino-doc/
+    - 'Extras':
+        - 'Circuit we cooked during class': '4.Questions and Answers\Circuit we cooked during class.md'
+        - 'Questions and Answers': '4.Questions and Answers\Questions and Answers.md'
+repo_url: https://github.com/paramphy/Arduino-doc/
 #edit_uri: ""
 
 markdown_extensions:
