@@ -14,12 +14,12 @@ plugins:
 
 nav:
     - 'Home': 'index.md'
-    - 'Chapter 1': 
+    - 'Introduction': 
         - 'Arduino-Overview': 'Chapter-1/Arduino-Overview.md'
         - 'Arduino-Board-Description': 'Chapter-1/Arduino-Board-Description.md'
         - 'Installation': 'Chapter-1/Installation.md'
         - 'Tinkar Simulation': 'Chapter-1/Tinkar Simulation.md'
-    - 'Chapter 2':
+    - 'Programing Essentials ':
         - 'Program Structure': '2.Chapter-2/1.Program Structure.md'
         - 'Data Types': '2.Chapter-2/2.Data Types.md'
         - 'Variables and Constants': '2.Chapter-2/3.Variables and Constants.md'
