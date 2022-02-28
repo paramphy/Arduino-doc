@@ -15,10 +15,10 @@ plugins:
 nav:
     - 'Home': 'index.md'
     - 'Chapter 1':
-        - 'Arduino-Overview': '1.Chapter-1\1.Arduino-Overview.md'
-        - 'Arduino-Board-Description': '1.Chapter-1\2.Arduino-Board-Description.md'
-        - 'Installation': '1.Chapter-1\3.Installation.md'
-        - 'Tinkar Simulation': '1.Chapter-1\3.Tinkar Simulation.md'
+        - 'Arduino-Overview': '\1.Chapter-1\1.Arduino-Overview.md'
+        - 'Arduino-Board-Description': '\1.Chapter-1\2.Arduino-Board-Description.md'
+        - 'Installation': '\1.Chapter-1\3.Installation.md'
+        - 'Tinkar Simulation': '\1.Chapter-1\3.Tinkar Simulation.md'
     - 'Chapter 2':
         - 'Program Structure': '2.Chapter-2\1.Program Structure.md'
         - 'Data Types': '2.Chapter-2\2.Data Types.md'
