@@ -28,7 +28,7 @@ nav:
         - 'Loops': '2.Chapter-2/6.Loops.md'
         - 'Functions': '2.Chapter-2/7.Functions.md'
         - 'Time': '2.Chapter-2/8.Time.md'
-    - 'Arduino Projects':
+    - 'Projects':
         - 'Blinking LED': '3.Arduino Projects/1.Blinking LED.md'
         - 'Fading LED': '3.Arduino Projects/2.Fading LED.md'
         - 'Reading Analog Voltage': '3.Arduino Projects/3.Reading Analog Voltage.md'
