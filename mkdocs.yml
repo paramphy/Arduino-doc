@@ -46,14 +46,14 @@ nav:
       - Time: '2.Chapter-2\8.Time.md'
     - Arduino Projects:
      - Blinking LED: '3.Arduino Projects\1.Blinking LED.md'
-      - Fading LED: '3.Arduino Projects\2.Fading LED.md'
-      - Reading Analog Voltage: '3.Arduino Projects\3.Reading Analog Voltage.md'
-        - Temperature Sensor: '3.Arduino Projects\4.Temperature Sensor.md'
-        - RC circuit data log: '3.Arduino Projects\5.RC circuit data log.md'
-        - Reading Analog Voltage More than 5V: '3.Arduino Projects\6.Reading Analog Voltage More than 5V.md'
-        - 7 Segment Display: '3.Arduino Projects\7.7 Segment Display.md'
-        - Ultrasonic Sensor: '3.Arduino Projects\8.Ultrasonic Sensor.md'
-        - LCD Display: '3.Arduino Projects\9.LCD Display.md'
+     - Fading LED: '3.Arduino Projects\2.Fading LED.md'
+     - Reading Analog Voltage: '3.Arduino Projects\3.Reading Analog Voltage.md'
+     - Temperature Sensor: '3.Arduino Projects\4.Temperature Sensor.md'
+     - RC circuit data log: '3.Arduino Projects\5.RC circuit data log.md'
+     - Reading Analog Voltage More than 5V: '3.Arduino Projects\6.Reading Analog Voltage More than 5V.md'
+     - 7 Segment Display: '3.Arduino Projects\7.7 Segment Display.md'
+     - Ultrasonic Sensor: '3.Arduino Projects\8.Ultrasonic Sensor.md'
+     - LCD Display: '3.Arduino Projects\9.LCD Display.md'
 #repo_url: https://github.com/paramphy/Arduino-doc/
 #edit_uri: ""
 
