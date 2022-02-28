@@ -14,33 +14,33 @@ plugins:
 
 nav:
     - 'Home': 'index.md'
-    - 'Chapter 1':
-        - 'Arduino-Overview': 'Chapter-1\Arduino-Overview.md'
-        - 'Arduino-Board-Description': 'Chapter-1\Arduino-Board-Description.md'
-        - 'Installation': 'Chapter-1\Installation.md'
-        - 'Tinkar Simulation': 'Chapter-1\Tinkar Simulation.md'
+    - 'Chapter 1': 
+        - 'Arduino-Overview': 'Chapter-1/Arduino-Overview.md'
+        - 'Arduino-Board-Description': 'Chapter-1/Arduino-Board-Description.md'
+        - 'Installation': 'Chapter-1/Installation.md'
+        - 'Tinkar Simulation': 'Chapter-1/Tinkar Simulation.md'
     - 'Chapter 2':
-        - 'Program Structure': '2.Chapter-2\1.Program Structure.md'
-        - 'Data Types': '2.Chapter-2\2.Data Types.md'
-        - 'Variables and Constants': '2.Chapter-2\3.Variables and Constants.md'
-        - 'Operators': '2.Chapter-2\4.Operators.md'
-        - 'Control Statements': '2.Chapter-2\5.Control Statements.md'
-        - 'Loops': '2.Chapter-2\6.Loops.md'
-        - 'Functions': '2.Chapter-2\7.Functions.md'
-        - 'Time': '2.Chapter-2\8.Time.md'
+        - 'Program Structure': '2.Chapter-2/1.Program Structure.md'
+        - 'Data Types': '2.Chapter-2/2.Data Types.md'
+        - 'Variables and Constants': '2.Chapter-2/3.Variables and Constants.md'
+        - 'Operators': '2.Chapter-2/4.Operators.md'
+        - 'Control Statements': '2.Chapter-2/5.Control Statements.md'
+        - 'Loops': '2.Chapter-2/6.Loops.md'
+        - 'Functions': '2.Chapter-2/7.Functions.md'
+        - 'Time': '2.Chapter-2/8.Time.md'
     - 'Arduino Projects':
-        - 'Blinking LED': '3.Arduino Projects\1.Blinking LED.md'
-        - 'Fading LED': '3.Arduino Projects\2.Fading LED.md'
-        - 'Reading Analog Voltage': '3.Arduino Projects\3.Reading Analog Voltage.md'
-        - 'Temperature Sensor': '3.Arduino Projects\4.Temperature Sensor.md'
-        - 'RC circuit data log': '3.Arduino Projects\5.RC circuit data log.md'
-        - 'Reading Analog Voltage More than 5V': '3.Arduino Projects\6.Reading Analog Voltage More than 5V.md'
-        - '7 Segment Display': '3.Arduino Projects\7.7 Segment Display.md'
-        - 'Ultrasonic Sensor': '3.Arduino Projects\8.Ultrasonic Sensor.md'
-        - 'LCD Display': '3.Arduino Projects\9.LCD Display.md'
+        - 'Blinking LED': '3.Arduino Projects/1.Blinking LED.md'
+        - 'Fading LED': '3.Arduino Projects/2.Fading LED.md'
+        - 'Reading Analog Voltage': '3.Arduino Projects/3.Reading Analog Voltage.md'
+        - 'Temperature Sensor': '3.Arduino Projects/4.Temperature Sensor.md'
+        - 'RC circuit data log': '3.Arduino Projects/5.RC circuit data log.md'
+        - 'Reading Analog Voltage More than 5V': '3.Arduino Projects/6.Reading Analog Voltage More than 5V.md'
+        - '7 Segment Display': '3.Arduino Projects/7.7 Segment Display.md'
+        - 'Ultrasonic Sensor': '3.Arduino Projects/8.Ultrasonic Sensor.md'
+        - 'LCD Display': '3.Arduino Projects/9.LCD Display.md'
     - 'Extras':
-        - 'Circuit we cooked during class': '4.Questions and Answers\Circuit we cooked during class.md'
-        - 'Questions and Answers': '4.Questions and Answers\Questions and Answers.md'
+        - 'Circuit we cooked during class': '4.Questions and Answers/Circuit we cooked during class.md'
+        - 'Questions and Answers': '4.Questions and Answers/Questions and Answers.md'
 repo_url: https://github.com/paramphy/Arduino-doc/
 #edit_uri: ""
 
