@@ -23,11 +23,19 @@ Arduino is a prototype platform (open-source) based on an easy-to-use hardware a
 ---
 # **Arduino Board**
 
-![arduinounoboard right:10% 10%](https://i.imgur.com/6uYuZAM.jpg)
+| Arduino Board  |   |
+|:-:|:-:|
+| ![arduinounoboard right:10% 10%](https://i.imgur.com/6uYuZAM.jpg)  | This is a Arduino UNO board. This board is used as a first board as it is cheap and available.   | |
+
 
 ---
-# **IDE**
-![](https://i.imgur.com/5X0IlAi.png)
+# **IDE(Integrated Development Environment)**
+
+| IDE |   |
+|:-:|:-:|
+| <img src="https://i.imgur.com/5X0IlAi.png" alt="drawing" width="200"/>|This is the default IDE provides by Arduino corporation itself. It is convinient to use and truly you dont need anything else to other than this as an IDE. This is the best tool to connect to your seperate arduino board from your comuter and upload your **sketch**. (What is sketch??)   |
+
+
 ---
 
 # **Important Links**
@@ -37,14 +45,6 @@ Arduino is a prototype platform (open-source) based on an easy-to-use hardware a
 - **[Lecture Notes](arduino-doc.readthedocs.io/)**
 - **[Github Repo for the Lecture and slides](https://github.com/paramphy/Arduino-doc)**
 - **[TinkerCAD Circuit Simulation](https://www.tinkercad.com/)**
-
----
-# **Contacts**
-
-### Email-id : parameshchandra28@gmail.com
-### Phone no : 9007869662
-
-*email is more preferred over phone.
 
 ---
 
@@ -60,7 +60,7 @@ Arduino is a prototype platform (open-source) based on an easy-to-use hardware a
 
 # **Platforms we will be using**
 
-Arduino physical board is the best (Arduino Uno is the goto board) to learn arduino coding and we need a computer the compile and upload the code to arduino. As you are new to this I prefer using a arduino simulator to practice and learn first.
+Arduino physical board is the best (Arduino Uno is the goto board) to learn arduino coding and we need a computer to compile and upload the code to Arduino. As you are new to this I prefer using a arduino simulator to practice and learn first.
 
 We will be using [tinkercad](https://www.tinkercad.com/) to simulate the circuit. Please try to make a free account there to seamlessly use the features. You can make an account [here](https://www.tinkercad.com/).
 
@@ -68,4 +68,19 @@ We will be using [tinkercad](https://www.tinkercad.com/) to simulate the circuit
 
 # **Code availability**
 
-Every code is available and opensourced in my [github repo](https://github.com/paramphy/Arduino-doc). Feel free to ask for any pull request. I am happy to help.
+Every code is available and opensourced in my [github repo](https://github.com/paramphy/Arduino-doc). Feel free to ask for any pull request. I am happy to help. I have also hosting an website for Arduino documentation [here](hhttps://arduino-doc.readthedocs.io/en/latest/).
+
+---
+# **Contacts**
+
+**Email-id : parameshchandra28@gmail.com**
+**Phone no : 9007869662**
+
+*email is more preferred over phone.
+
+---
+
+# **More**
+
+[Here](https://create.arduino.cc/projecthub) are some interesting projects you can check out.
+
