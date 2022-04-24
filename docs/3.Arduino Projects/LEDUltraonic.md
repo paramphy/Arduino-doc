@@ -1,4 +1,4 @@
-# LED control with Ultrasonic sensor
+# LEDs control with Ultrasonic sensor
 
 ## Author: Chitrak Roychowdhury
 
@@ -22,7 +22,7 @@ You will need the following components −
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 
-![Imgur](https://imgur.com/ODjsU1e)
+![Imgur](https://i.imgur.com/ODjsU1e)
 
 
 # Arduino Code
@@ -30,8 +30,7 @@ Follow the circuit diagram and hook up the components on the breadboard as shown
 ```c++
 /*
   Contributed by: Chitrak Roychowdhury
-  // C++ code
-//
+  // C++ code*/
 const int trig = 12;
 const int echo = 13;
 const int LED1 = 11;
