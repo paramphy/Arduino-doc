@@ -54,6 +54,12 @@ markdown_extensions:
     - mdx_math
       #enable_dollar_delimiter: True
 
+extra:
+  analytics:
+    provider: google
+    property: G-278358421
+
+
 copyright: Maintained by the <a href="https://github.com/paramphy">Paramesh Chandra</a>.
 
 extra_javascript: 
