@@ -22,7 +22,7 @@ You will need the following components −
 
 Follow the circuit diagram and hook up the components on the breadboard as shown in the image given below.
 
-![Imgur](https://i.imgur.com/ODjsU1e)
+![Imgur](https://i.imgur.com/ODjsU1e.png)
 
 
 # Arduino Code
