@@ -1,3 +1,7 @@
 # Arduino-doc
-![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.6849966.svg)
+
+
+[![DOI](https://zenodo.org/badge/383036232.svg)](https://zenodo.org/badge/latestdoi/383036232)
+
+
  

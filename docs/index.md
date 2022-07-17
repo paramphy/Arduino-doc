@@ -20,4 +20,7 @@ An Arduino UNO board and computer to code is expected from the students. But if 
 
 This course is a simplified and shorter syllabus oriented version of [this tutorial](https://www.tutorialspoint.com/arduino/index.htm). I have also made introduced the online simulation of Arduino circuits and also included some Arduino projects. The number of projects may increase if needed.
 
-![](https://zenodo.org/badge/doi/10.5281/zenodo.6849966.svg)
+
+
+[![DOI](https://zenodo.org/badge/383036232.svg)](https://zenodo.org/badge/latestdoi/383036232)
+
