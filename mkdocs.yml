@@ -55,9 +55,6 @@ markdown_extensions:
       #enable_dollar_delimiter: True
 
 extra:
-    site_meta: 
-        meta name: "google-site-verification"
-        content: "tNC4ZqXYqrabZPFwYDv4kvwUi0dgqo7fBmjZJDfzq1Q"
     analytics:
         provider: google
         property: G-GV6EDKF2VZ
