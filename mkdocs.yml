@@ -57,7 +57,8 @@ markdown_extensions:
 extra:
     analytics:
         provider: google
-        property: G-GV6EDKF2VZ
+        property: G-N486R53LLL
+    extrahead:
 
 
 copyright: Maintained by the <a href="https://github.com/paramphy">Paramesh Chandra</a>.
